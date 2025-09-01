@@ -35,19 +35,23 @@ static class ImageListener
         [new(0), new(0), new(32), new(51), new(28), new(0), new(0), new(33), new(184), new(196), new(185), new(28), new(0), new(20), new(61), new(43), new(197), new(51), new(0), new(0), new(0), new(70), new(191), new(32), new(0), new(0), new(36), new(176), new(96), new(0), new(0), new(18), new(172), new(207), new(107), new(60),],
         [new(0),new(0),new(12),new(48),new(44),new(8),new(0),new(0),new(122),new(195),new(209),new(108),new(0),new(1),new(57),new(33),new(134),new(160),new(0),new(0),new(0),new(8),new(171),new(122),new(0),new(0),new(4),new(114),new(168),new(21),new(0),new(0),new(88),new(228),new(142),new(98),],
         [new(0),new(28),new(51),new(31),new(0),new(0),new(28),new(175),new(194),new(194),new(33),new(0),new(17),new(63),new(36),new(195),new(58),new(0),new(0),new(0),new(56),new(197),new(38),new(0),new(0),new(28),new(169),new(110),new(0),new(0),new(14),new(157),new(215),new(111),new(60),new(0),],
+        [new(0),new(9),new(47),new(46),new(9),new(0),new(0),new(108),new(195),new(210),new(109),new(0),new(0),new(52),new(36),new(120),new(156),new(0),new(0),new(0),new(2),new(160),new(122),new(0),new(0),new(2),new(101),new(177),new(26),new(0),new(0),new(75),new(225),new(151),new(89),new(18),],
     ];
     static readonly L8[][] chargecount3Masks = [
         [new(0), new(0), new(32), new(51), new(28), new(0), new(0), new(33), new(184), new(184), new(176), new(28), new(0), new(20), new(62), new(49), new(192), new(46), new(0), new(0), new(0), new(155), new(198), new(29), new(0), new(0), new(0), new(74), new(224), new(121), new(0), new(0), new(0), new(10), new(201), new(147),],
         [new(0),new(28),new(51),new(32),new(0),new(0),new(28),new(176),new(184),new(184),new(34),new(0),new(17),new(63),new(42),new(191),new(53),new(0),new(0),new(0),new(139),new(210),new(34),new(0),new(0),new(0),new(63),new(221),new(122),new(0),new(0),new(0),new(4),new(189),new(147),new(0),],
+        [new(0),new(0),new(12),new(48),new(45),new(8),new(0),new(0),new(122),new(192),new(193),new(108),new(0),new(1),new(57),new(36),new(138),new(150),new(0),new(0),new(0),new(60),new(226),new(110),new(0),new(0),new(0),new(21),new(168),new(223),new(0),new(0),new(0),new(0),new(101),new(247),],
     ];
     static readonly L8[][] chargeCount4Masks = [
         [new(0), new(0), new(0), new(15), new(40), new(7), new(0), new(0), new(1), new(135), new(209), new(39), new(0), new(0), new(67), new(225), new(231), new(45), new(0), new(17), new(155), new(154), new(226), new(41), new(0), new(95), new(207), new(155), new(239), new(119), new(0), new(92), new(155), new(188), new(245), new(156),],
         [new(0),new(0),new(12),new(41),new(8),new(0),new(0),new(0),new(120),new(217),new(45),new(0),new(0),new(55),new(216),new(241),new(52),new(0),new(13),new(147),new(150),new(233),new(49),new(0),new(91),new(209),new(150),new(243),new(117),new(11),new(93),new(154),new(181),new(248),new(149),new(19),],
+        [new(0),new(0),new(1),new(34),new(26),new(0),new(0),new(0),new(39),new(208),new(134),new(0),new(0),new(9),new(148),new(254),new(149),new(0),new(0),new(80),new(157),new(205),new(150),new(0),new(17),new(184),new(159),new(213),new(192),new(50),new(28),new(141),new(157),new(229),new(212),new(75),],
     ];
     static readonly L8[][] chargeCount5Masks = [
         [new(0), new(0), new(31), new(50), new(46), new(9), new(0), new(1), new(151), new(194), new(164), new(33), new(0), new(16), new(160), new(83), new(13), new(2), new(0), new(27), new(149), new(194), new(139), new(13), new(0), new(0), new(0), new(69), new(219), new(88), new(0), new(0), new(0), new(35), new(208), new(101),],
         [new(0),new(28),new(50),new(48),new(11),new(0),new(0),new(136),new(197),new(171),new(38),new(0),new(11),new(151),new(94),new(15),new(2),new(0),new(23),new(141),new(192),new(150),new(17),new(0),new(0),new(0),new(57),new(218),new(92),new(0),new(0),new(0),new(25),new(203),new(104),new(0),],
         [new(0),new(10),new(46),new(51),new(30),new(0),new(0),new(49),new(202),new(183),new(108),new(0),new(0),new(79),new(155),new(35),new(6),new(0),new(0),new(85),new(177),new(190),new(70),new(0),new(0),new(0),new(12),new(154),new(183),new(16),new(0),new(0),new(0),new(120),new(192),new(22),],
+        [new(0),new(0),new(12),new(47),new(51),new(30),new(0),new(0),new(62),new(204),new(181),new(109),new(0),new(0),new(93),new(148),new(30),new(6),new(0),new(0),new(96),new(180),new(184),new(67),new(0),new(0),new(0),new(17),new(167),new(194),new(0),new(0),new(0),new(0),new(135),new(205),],
     ];
     static readonly L8[][] chargeCount6Masks = [[new(0), new(0), new(62), new(199), new(195), new(98), new(0), new(27), new(196), new(117), new(27), new(46), new(0), new(54), new(232), new(142), new(117), new(12), new(0), new(56), new(191), new(78), new(199), new(127), new(0), new(56), new(196), new(23), new(117), new(158), new(0), new(48), new(228), new(70), new(136), new(145),]];
     #endregion
@@ -201,14 +205,14 @@ static class ImageListener
         MONITORINFO monitorInfo = new() { cbSize = (uint)Unsafe.SizeOf<MONITORINFO>() };
         PInvoke.GetMonitorInfo(monitor, ref monitorInfo);
 
-        var hdcDesktop = PInvoke.GetDC(new());
-
-        var hdcDest = PInvoke.CreateCompatibleDC(hdcDesktop);
-        var hBitmap = PInvoke.CreateCompatibleBitmap(hdcDesktop, monitorInfo.rcMonitor.Width, captureHeight);
-        PInvoke.SelectObject(hdcDest, hBitmap);
-
         while (!ct.IsCancellationRequested)
         {
+            var hdcDesktop = PInvoke.GetDC(default);
+
+            var hdcDest = PInvoke.CreateCompatibleDC(hdcDesktop);
+            var hBitmap = PInvoke.CreateCompatibleBitmap(hdcDesktop, monitorInfo.rcMonitor.Width, captureHeight);
+            var hPrevBitmap = PInvoke.SelectObject(hdcDest, hBitmap);
+
             PInvoke.BitBlt(hdcDest, 0, 0, monitorInfo.rcMonitor.Width, captureHeight,
                 hdcDesktop, monitorInfo.rcMonitor.X, monitorInfo.rcMonitor.Y, ROP_CODE.SRCCOPY);
 
@@ -233,6 +237,11 @@ static class ImageListener
 
                 NativeMemory.Free(bytes);
             }
+
+            PInvoke.SelectObject(hdcDest, hPrevBitmap);
+            PInvoke.DeleteObject(hBitmap);
+            PInvoke.DeleteDC(hdcDest);
+            PInvoke.ReleaseDC(default, hdcDesktop);
 
             var anyFound = false;
             for (int x = 0; x < 10; ++x)

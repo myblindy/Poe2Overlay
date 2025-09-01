@@ -14,3 +14,6 @@ GetSystemMetrics
 MonitorFromPoint 
 GetMonitorInfo
 GetDIBits
+DeleteObject
+DeleteDC
+ReleaseDC
