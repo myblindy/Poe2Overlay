@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poe2Overlay", "Poe2Overlay\Poe2Overlay.csproj", "{E51DADB3-EB2B-44EA-8DFD-4B1C1DCAAAD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E51DADB3-EB2B-44EA-8DFD-4B1C1DCAAAD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E51DADB3-EB2B-44EA-8DFD-4B1C1DCAAAD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E51DADB3-EB2B-44EA-8DFD-4B1C1DCAAAD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E51DADB3-EB2B-44EA-8DFD-4B1C1DCAAAD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8F50113-43D1-46FB-AB95-0E8ADF9B5FAD}
+	EndGlobalSection
+EndGlobal
